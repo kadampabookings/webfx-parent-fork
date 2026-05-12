@@ -363,11 +363,13 @@
             <snapshots><enabled>true</enabled></snapshots>
         </pluginRepository>
 
-        <!-- For TeaVM dev builds -->
+        <!-- For TeaVM dev builds (required only when using teavm xxx-dev version) -->
+<!--
         <pluginRepository>
             <id>teavm-dev</id>
             <url>https://teavm.org/maven/repository</url>
         </pluginRepository>
+-->
 
     </pluginRepositories>
 
