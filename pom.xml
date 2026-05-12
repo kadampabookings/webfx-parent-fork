@@ -40,7 +40,7 @@
         <vertispan.jsinterop.base.version>1.0.1-1</vertispan.jsinterop.base.version>
 
         <!-- GWT version (used for -gwt WebFX modules, including final -gwt application executable modules) -->
-        <gwt.version>2.12.2</gwt.version>
+        <gwt.version>2.13.0</gwt.version>
         <!-- GWT Maven plugin version. https://github.com/tbroyer/gwt-maven-plugin -->
         <tbroyer.gwt.plugin.version>1.2.0</tbroyer.gwt.plugin.version>
 
@@ -53,10 +53,10 @@
         <gwttime.version>2.0.12</gwttime.version>
 
         <!-- TeaVM version (used for -teavm WebFX modules, including future final -teavm application executable modules) -->
-        <teavm.version>0.14.0-dev-2</teavm.version> <!-- Unified version for TeaVM modules and TeaVM Maven plugin -->
+        <teavm.version>0.14.0</teavm.version> <!-- Unified version for TeaVM modules and TeaVM Maven plugin -->
 
         <!-- Vert.x version (used for -vertx WebFX modules, including final -vertx application executable modules) -->
-        <vertx.version>5.0.7</vertx.version>
+        <vertx.version>5.0.12</vertx.version>
 
         <!-- Maven minimum required version -->
         <maven.min.version>3.3.1</maven.min.version>
@@ -379,12 +379,6 @@
             <url>https://nexus.gluonhq.com/nexus/content/repositories/releases</url>
             <releases><enabled>true</enabled></releases>
             <snapshots><enabled>false</enabled></snapshots>
-        </repository>
-
-        <!-- For TeaVM dev builds -->
-        <repository>
-            <id>teavm-dev</id>
-            <url>https://teavm.org/maven/repository</url>
         </repository>
 
     </repositories>
