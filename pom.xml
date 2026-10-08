@@ -27,7 +27,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- OpenJFX version (used for -openjfx WebFX modules, including final -openjfx application executable modules) -->
-        <openjfx.version>21.0.6</openjfx.version>
+        <openjfx.version>21.0.12</openjfx.version>
 
         <!-- Gluon version (used for xxx-gluon WebFX modules, including final xxx-gluon application executable modules) -->
         <gluon.gluonfx.plugin.version>1.0.23</gluon.gluonfx.plugin.version> <!-- => set Gluon Substrate version to 0.0.63 => targets Android SDK 34 -->
@@ -40,14 +40,14 @@
         <vertispan.jsinterop.base.version>1.0.1-1</vertispan.jsinterop.base.version>
 
         <!-- GWT version (used for -gwt WebFX modules, including final -gwt application executable modules) -->
-        <gwt.version>2.13.0</gwt.version>
+        <gwt.version>2.13.1</gwt.version>
         <!-- GWT Maven plugin version. https://github.com/tbroyer/gwt-maven-plugin -->
         <tbroyer.gwt.plugin.version>1.3.0</tbroyer.gwt.plugin.version>
 
         <!-- Elemental2 version used together with GWT -->
         <elemental2.version>1.2.3</elemental2.version>
-        <jsinterop.base.version>1.0.1</jsinterop.base.version> <!-- Since elemental2 1.2.1 it is necessary to explicitly set jsinterop version, otherwise GWT compilation fails -->
-        <jsinterop.annotations.version>2.0.2</jsinterop.annotations.version> <!-- Now this dependency can be explicit in GWT source modules -->
+        <jsinterop.base.version>1.2.0</jsinterop.base.version> <!-- Since elemental2 1.2.1 it is necessary to explicitly set jsinterop version, otherwise GWT compilation fails -->
+        <jsinterop.annotations.version>2.1.0</jsinterop.annotations.version> <!-- Now this dependency can be explicit in GWT source modules -->
 
         <!-- GWT-time version (GWT library to emulate java.time - not supported by default by GWT) -->
         <gwttime.version>2.0.12</gwttime.version>
