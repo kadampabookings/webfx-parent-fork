@@ -56,7 +56,7 @@
         <teavm.version>0.14.1</teavm.version> <!-- Unified version for TeaVM modules and TeaVM Maven plugin -->
 
         <!-- Vert.x version (used for -vertx WebFX modules, including final -vertx application executable modules) -->
-        <vertx.version>5.2.1</vertx.version> <!-- Jackson 2 is aligned by the jackson-bom import in kbs3/webfx.xml, and scram-client by scram.version in webfx-stack-parent: move both with Vert.x -->
+        <vertx.version>5.2.2</vertx.version> <!-- Jackson 2 is aligned by the jackson-bom import in kbs3/webfx.xml, and scram-client by scram.version in webfx-stack-parent: move both with Vert.x -->
 
         <!-- Maven minimum required version -->
         <maven.min.version>3.6.3</maven.min.version>
